@@ -21,40 +21,17 @@ td {
     height: 50px;
 }
 
-#TopTen tr td.op {
+#Top25 tr td.op {
     background-color: #0080FF;
   }
 
-#TopTen tr.row1 {
+#Top25 tr.row1 {
     background-color: #A9D0F5;
 }
-#TopTen tr.row2 {
+#Top25 tr.row2 {
     background-color: #E0E0F8;
 }
-#TopTen tr.row3 {
-    background-color: #A9D0F5;
-}
-#TopTen tr.row4 {
-    background-color: #E0E0F8;
-}
-#TopTen tr.row5 {
-    background-color: #A9D0F5;
-}
-#TopTen tr.row6 {
-    background-color: #E0E0F8;
-}
-#TopTen tr.row7 {
-    background-color: #A9D0F5;
-}
-#TopTen tr.row8 {
-    background-color: #E0E0F8;
-}
-#TopTen tr.row9 {
-    background-color: #A9D0F5;
-}
-#TopTen tr.row10 {
-    background-color: #E0E0F8;
-}
+
 
 h1 {
     font-family: cursive, comic;
@@ -71,11 +48,13 @@ p {
 #forms {
     text-align: center;
 }
-
+a {
+    text-decoration: none;
+}
 img:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
-}
+  }
   
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
